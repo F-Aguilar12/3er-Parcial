@@ -1,0 +1,5 @@
+print("Cuánto ganarás pa las morritas?")
+salario_diario = input("ingresa tu salario diario: ")
+dias_trabajados = input("ingresa los dias que trabajaste en el año: ")
+aguinaldo = (15/365) * int(salario_diario) * int(dias_trabajados)
+print("tu aguinaldo para las morritas es de: $ ", aguinaldo)
